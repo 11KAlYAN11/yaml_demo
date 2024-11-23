@@ -17,5 +17,11 @@ fetch('data.yaml')
 
         document.getElementById('email').innerText = "Email: " + data.profile.contact.email;
         document.getElementById('phone').innerText = "Phone: " + data.profile.contact.phone;
+        document.getElementById('awsCer').innerText = "Certificates: AWS " + data.profile.certifications.aws;
+        document.getElementById('salesforceCer').innerText = "Saleforce: " + data.profile.certifications.salesforce;
+        document.getElementById('awsPro').innerText = "Projects: AWS " + data.profile.projects.aws;
+        document.getElementById('salesforcePro').innerText = "Salesforce " + data.profile.projects.salesforce;
+        document.getElementById('javaPro').innerText = "Java " + data.profile.projects.java;
+
     })
     .catch(e => console.error("Error loading YAML file", e));

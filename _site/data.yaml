@@ -1,11 +1,21 @@
 profile:
-  name: "John Doe"
-  profession: "Web Developer"
-  location: "New York"
+  name: "Asam Pavan Kumar Reddy"
+  profession: "Web Developer & Java Developer"
+  location: "Banglore, India"
   skills:
     - "HTML"
     - "CSS"
     - "JavaScript"
+    - "Java"
+    - "Python"
+    - "DevOps"
   contact:
-    email: "john.doe@example.com"
-    phone: "+1234567890"
+    email: "programmer143143@gmail.com"
+    phone: "+91 xxxxx xxxxx"
+  certifications: 
+    aws: "Aws-certificate"
+    salesforce: Saleforce 2X certified
+  projects: 
+    aws: "aws-project"
+    salesforce: "salesforce-project"
+    java: "java-project"    

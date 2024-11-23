@@ -2,11 +2,11 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 20px;
-  background-color: #f4f4f4;
+  background-color: #caa3bf;
 }
 
 h1 {
-  color: #333;
+  color: #357c54;
 }
 
 ul {
@@ -15,11 +15,14 @@ ul {
 }
 
 li {
-  background-color: #ddd;
+  background-color: rgba(22, 118, 148, 0.6);
   margin: 5px 0;
   padding: 10px;
 }
 
 p {
   font-size: 18px;
+  background-color: rgb(150, 128, 234);
+  border-radius: 0cap;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
