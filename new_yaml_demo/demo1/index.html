@@ -1,0 +1,33 @@
+---
+layout: default
+title: Profile
+---
+
+<div class="profile">
+    <h1>{{ site.data.data.profile.name }}</h1>
+    <p>Profession: {{ site.data.data.profile.profession }}</p>
+    <p>Location: {{ site.data.data.profile.location }}</p>
+
+    <h2>Skills:</h2>
+    <ul>
+        {% for skill in site.data.data.profile.skills %}
+        <li>{{ skill }}</li>
+        {% endfor %}
+    </ul>
+
+    <p>Email: {{ site.data.data.profile.contact.email }}</p>
+    <p>Phone: {{ site.data.data.profile.contact.phone }}</p>
+
+    <h2>Certificates:</h2>
+    <ul>
+        <li>AWS: {{ site.data.data.profile.certifications.aws }}</li>
+        <li>Salesforce: {{ site.data.data.profile.certifications.salesforce }}</li>
+    </ul>
+
+    <h2>Projects:</h2>
+    <ul>
+        <li>AWS: {{ site.data.data.profile.projects.aws }}</li>
+        <li>Salesforce: {{ site.data.data.profile.projects.salesforce }}</li>
+        <li>Java: {{ site.data.data.profile.projects.java }}</li>
+    </ul>
+</div>
