@@ -1,0 +1,18 @@
+profile:
+  name: John Doe
+  profession: Software Engineer
+  location: San Francisco, CA
+  skills:
+    - JavaScript
+    - Python
+    - HTML/CSS
+  contact:
+    email: johndoe@example.com
+    phone: (123) 456-7890
+  certifications:
+    aws: Certified Solutions Architect
+    salesforce: Certified Administrator
+  projects:
+    aws: Cloud Infrastructure Setup
+    salesforce: CRM Implementation
+    java: E-commerce Application

@@ -1,0 +1,19 @@
+data:
+  profile:
+    name: "John Doe"
+    profession: "Web Developer"
+    location: "New York, USA"
+    skills:
+      - HTML
+      - CSS
+      - JavaScript
+    contact:
+      email: "john.doe@example.com"
+      phone: "123-456-7890"
+    certifications:
+      aws: "AWS Certified Solutions Architect"
+      salesforce: "Salesforce Certified Administrator"
+    projects:
+      aws: "AWS Project Description"
+      salesforce: "Salesforce Project Description"
+      java: "Java Project Description"
