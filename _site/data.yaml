@@ -1,0 +1,11 @@
+profile:
+  name: "John Doe"
+  profession: "Web Developer"
+  location: "New York"
+  skills:
+    - "HTML"
+    - "CSS"
+    - "JavaScript"
+  contact:
+    email: "john.doe@example.com"
+    phone: "+1234567890"

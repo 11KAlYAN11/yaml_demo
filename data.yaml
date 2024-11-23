@@ -1,9 +1,21 @@
 profile:
-  name: John Doe
-  title: Web Developer
-  description: Experienced in creating stunning websites.
-  links:
-    - text: GitHub
-      url: https://github.com/johndoe
-    - text: LinkedIn
-      url: https://linkedin.com/in/johndoe
+  name: "Asam Pavan Kumar Reddy"
+  profession: "Web Developer & Java Developer"
+  location: "Banglore, India"
+  skills:
+    - "HTML"
+    - "CSS"
+    - "JavaScript"
+    - "Java"
+    - "Python"
+    - "DevOps"
+  contact:
+    email: "programmer143143@gmail.com"
+    phone: "+91 xxxxx xxxxx"
+  certifications: 
+    aws: "Aws-certificate"
+    salesforce: Saleforce 2X certified
+  projects: 
+    aws: "aws-project"
+    salesforce: "salesforce-project"
+    java: "java-project"    
